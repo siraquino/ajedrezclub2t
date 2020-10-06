@@ -1,0 +1,25 @@
+html, body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.portada {
+    height: 75vh;
+    background: url('./images/rafael_aquino_035.png'); 
+    /* background: url('https://images.pexels.com/photos/4038397/pexels-photo-4038397.jpeg?cs=srgb&dl=pexels-joseph-ruwa-4038397.jpg&fm=jpg'); */
+    background-size: cover;
+    background-position: center;
+    padding: 1em;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+}
+.portada h1{
+    font-size: 50px;
+    margin: 0px;
+    text-shadow: 0px 0px 4px #000;
+}
+.portada p{
+    font-size: 20px;
+    margin: 4px;
+}
