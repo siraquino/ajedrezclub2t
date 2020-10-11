@@ -1,6 +1,10 @@
 html, body{
     margin: 0px;
 }
+nav{
+    background-color: white;
+    height: 100px;
+}
 
 .portada {
     height: 75vh;
@@ -12,6 +16,7 @@ html, body{
     color: white;
     display: flex;
     align-items: flex-end;
+    margin-bottom: 150px;
 }
 
 .portada h1{
@@ -25,9 +30,25 @@ html, body{
     font-size: 20px;
     margin: 4px;
 }
-
-footer{
-    height: 20vh;
-    background-color: #000;
+article{
+    margin-bottom: 150px;
+    line-height: 2.0;
+    font-size: 20px;
 }
 
+footer{
+    background-color: #000;
+    height: 250px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px white;
+    background-color: whitesmoke;
+    width: 100%;
+    margin-top: 100px;
+}
+.redes img{
+    margin: 30px;    
+}
