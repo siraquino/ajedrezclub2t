@@ -39,10 +39,10 @@ article{
     font-size: 20px;
 }
 
-footer{
+/* footer{
     background-color: #000;
     height: 250px;
-}
+} */
 .redes{
     display: flex;
     justify-content: center;
