@@ -72,3 +72,49 @@ a:active { text-decoration: none}
 	margin: 10px 0;
 	box-sizing: border-box;
 }
+
+.lista li{
+	/* display: block; */
+	display: inline-block;
+	padding: 2px;
+	margin: 5px;
+	/* border: 1px solid #1488cc; */
+	border-color: white;
+	border-radius: 0px; 
+}
+.lista li:hover{
+	background-color:rgb(238, 237, 237);
+}
+
+li{
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	border-color: grey;
+	border-style: solid;
+	border-radius: 9px; 
+}
+
+.container{
+	width: 80%;
+	max-width: 1000px;
+	/*min-width: 50%;*/
+	margin:0 auto;
+	box-sizing: border-box;
+	overflow: initial;
+}
+
+h2{
+	/*background-color:rgba(232, 250, 252,1.0);*/
+	/*background-color:rgba(rgba(12, 36, 97,1.0));*/
+	color:#000;
+	padding: 10px;
+	/*color: #fff;*/
+	clear:both;
+  	border-left: 5px solid blue;
+  	border-style: double;
+  	/*background-color: lightgrey;*/
+  	text-align: left;
+  	/*padding: 10px;*/
+  	box-sizing: border-box;
+}
